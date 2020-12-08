@@ -20,7 +20,9 @@ Usage
 
 1) Included are the networks "treated.net" and "untreated.net", representing the MMS-treated network and untreated network of Bandyopadhyay et al. (2010) dataset. 
 
-2) Run DiffNet using Java:
+2) unzip the file "gene_ontology2.1_0.obo.zip"
+
+3) Run DiffNet using Java:
 java -jar diffnet.jar <network1> <network2> 
 
 Example:
@@ -30,14 +32,14 @@ We recommend the following JVM parameters, for example:
 
 java -Xmx1024m -Xms32m -jar diffnet.jar -k 50 treated.net untreated.net
 
-3) See Options for customizing DiffNet
+4) See Options for customizing DiffNet
 
 Example:
 "java -jar diffnet.jar -k 50 -f B treated.net untreated.net" runs DiffNet with k=50 and using only
 Biological Process GO terms.
 
 
-4) The results will be placed in output/out_single.txt
+5) The results will be placed in output/out_single.txt
 
 
 Options
